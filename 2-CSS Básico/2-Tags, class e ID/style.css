@@ -1,0 +1,35 @@
+body {
+  background: grey
+}
+
+/*TAG*/
+h3 {
+  color: brown
+}
+
+/*CLASS*/
+.foto {
+  width: 300px;
+}
+
+/*ID*/
+#titulo-principal {
+  color: yellow
+}
+
+
+/* IDs são únicos
+
+Cada elemento pode ter apenas um ID
+Cada página pode ter apenas um elemento com aquele ID
+
+*Classes não são únicas
+
+Você pode usar a mesma classe para vários elementos
+Você pode usar várias classes para um mesmo elemento
+
+*Tags
+
+Geralmente estilizamos tags apenas para efeitos gerais naquela tag específica. Exemplo: você pode definir o padrão de títulos e parágrafos para uma determinada fonte, cor, tamanho. Ao longo do curso vamos ter vários exemplos disso. 
+
+Observação: não se utiliza espaço quando for nomear uma classe ou ID.

@@ -1,0 +1,19 @@
+/* A imagem por padrão vai se repetir no back ground */
+/* Posso usar a regra no repeat pra ela não se repetir. */
+/* Podemos usar o attachment para fixar o background */
+
+body {
+  background-image: url(images.jpg);
+  background-repeat: no-repeat;
+  /* background-position: 100% 10%; */
+  /* background-position:  right center; */
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+
+p {
+  color: #3b3c55;
+}

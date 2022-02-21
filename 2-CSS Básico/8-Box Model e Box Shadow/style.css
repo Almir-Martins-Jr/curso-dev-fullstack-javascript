@@ -1,0 +1,42 @@
+/* Como funciona as cores no CSS? */
+
+/* O RGB é a mistura das cores vermelha, verde e azul respequitivamente */
+
+/* body {
+  background: rgb(0, 0, 0,);
+} */
+
+
+/* A letra "a" no final significa alfa (transparencia) */
+
+/* body{
+    background: rgb rgba(128, 128, 128, 0.37)
+  } */
+
+
+/* Temos também o hexadecimal Tem o mesmo padrão do RGB, a cada dois caracteres correponde uma cor. */
+
+/* Podemos converter hex para RGB com auxilio de um conversor na internet. */
+
+
+body {
+  background: #a5bef3;
+}
+
+p {
+  color: #3b3c55;
+}
+
+.foto-principal {
+  width: 250px;
+  border: 2px solid #ffffff;
+  /*shorthand-abreviar os codicos*/
+  border-radius: 40% 5% 40% 5%;
+  /* margin: 30px 30px 30px 30px; */
+
+  /* o padding da espaçamento interno, e escrito como a margin. Se os valores dos lados forem iguais basta por um unico valor tanto para o margin como para o padding.*/
+  padding: 10px;
+  margin: 50px;
+  box-shadow: 2px 2px 12px rgb(78 120 238);
+
+}
