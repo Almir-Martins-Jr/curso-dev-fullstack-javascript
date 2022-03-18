@@ -2,28 +2,69 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+
 }
 
+a {
+  text-decoration: none;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 5px;
+  display: block;
+  margin: 3px auto;
+
+}
+
+
 .header {
-  background-color: grey;
+  background-image: url(../img/fundo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 250px;
+
+
+}
+
+.logo {
+  padding-top: 60px;
+  display: block;
+  margin: auto;
+  width: 10%;
+
+}
+
+.name {
   text-align: center;
-  padding: 50px 0;
-  font-size: 40px;
+  color: white;
+  font-family: 'Wallpoet', cursive;
 }
 
 .container {
   display: flex;
+  margin-top: 20px;
 }
 
 .navbar {
   width: 30%;
   background: #a3a3a3;
   padding: 30px;
+  margin: auto 3px auto 0;
+
 }
+
+.lista {
+  list-style: none;
+  text-decoration: none;
+}
+
 
 .content {
   width: 70%;
@@ -35,4 +76,7 @@ body {
   background-color: grey;
   text-align: center;
   padding: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
