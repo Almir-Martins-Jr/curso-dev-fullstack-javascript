@@ -1,44 +1,49 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-
+  background: rgb(32, 199, 238);
+  background: linear-gradient(90deg, rgba(32, 199, 238, 1) 0%, rgba(0, 0, 0, 1) 21%);
 }
 
-a {
+.menu{
   text-decoration: none;
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 2px;
-  border-radius: 5px;
-  padding: 5px;
+  padding: 4px;
   display: block;
-  margin: 3px auto;
+  margin: 0px auto;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+}
 
+p {
+  margin-top: 5px;
+}
+
+article img {
+  padding: 5px;
 }
 
 
 .header {
-  background-image: url(../img/fundo.jpg);
+  background-color: black;
+  background-image: url(../img/comp.gif);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
-  height: 250px;
-
-
+  background-position: center;
+  height: 200px;
+  box-shadow: 2px 2px 5px lightcyan;
+  position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
 }
 
 .logo {
-  padding-top: 60px;
+  padding-top: 30px;
   display: block;
   margin: auto;
   width: 10%;
-
 }
 
 .name {
@@ -49,34 +54,64 @@ a {
 
 .container {
   display: flex;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-right: 200px;
 }
 
 .navbar {
-  width: 30%;
-  background: #a3a3a3;
-  padding: 30px;
-  margin: auto 3px auto 0;
-
+  padding: 50px;
+  margin: 2px 400px auto 0;
+  color: white;
 }
 
 .lista {
   list-style: none;
   text-decoration: none;
+  padding: 20px;
 }
-
 
 .content {
   width: 70%;
-  background: rgb(192, 189, 189);
-  padding: 30px;
+  padding: 40px;
+  color: white;
+  margin: 30px 0px 50px;
+  border-radius: 100px 5px 100px 5px;
+  font-family: 'Raleway', sans-serif;
+  box-shadow: 5px 5px 20px lightcyan;
+  background-image: url(../img/back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.footer {
-  background-color: grey;
+.img-circle {
+  width: 50px;
+  filter: invert(100%);
+  
+}
+
+
+.img-links {
+  text-decoration: none;
+  
+}
+
+
+
+.instagram{
+  margin: 0 10px;
+}
+ 
+.logo2{
+  width: 60px;
+    margin-left: 515px;
+    margin-bottom: -7px;
+}
+
+footer {
   text-align: center;
-  padding: 20px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  background-image: url(../img/back.png);
+  color: rgba(255, 255, 255, 0.671);
+  padding:10px;
+  margin-top: 113px;
 }
