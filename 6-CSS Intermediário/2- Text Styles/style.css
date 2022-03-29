@@ -1,0 +1,28 @@
+h1 {
+color: brown;
+  text-shadow: 3px 3px 10px;
+}
+
+p {
+  font: size 25px;
+  margin: 30px;
+  color: blue;
+  text-align: justify;
+  font-weight: bold; /*negrito */
+  font-style: italic;
+  /* font-variant: small-caps; */
+  text-transform: lowercase;
+  text-indent: 50px; /*adiciona um espaço no inicio do paragrafo*/
+  word-spacing: 15px;
+  line-height: 50px;
+
+}
+
+a {
+  letter-spacing:10px;
+  text-decoration: line-through;
+  /* text-decoration: lowercase;
+  text-transform: uppercase;
+  text-transform: none; */
+
+}
