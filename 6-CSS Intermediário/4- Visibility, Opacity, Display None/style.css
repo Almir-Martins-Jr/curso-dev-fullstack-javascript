@@ -1,0 +1,33 @@
+
+body {
+  background: url(https://i.pinimg.com/originals/bc/a1/90/bca19096a0def30ba652264dbce98d88.jpg);
+  margin: 0;
+}
+
+ul {
+  background-color: white;
+  padding: 20px;
+  
+  
+  /* display: none; esconde um elemento removendo ele do espaço que ele ocupava */
+  
+  /* visibility: hidden; esconde o elemento mas mantem a area que ele ocupava. */
+  
+  opacity: 0.25;
+}
+
+ul li{
+  display: inline;
+  margin: 100px;
+  
+  
+}
+
+a {
+  font-weight:bold;
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+  
+  
+}
