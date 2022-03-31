@@ -1,0 +1,17 @@
+/* a { */
+  /* width: 150px; */
+  /* height: 150px; */
+  /* display: block; faz comportar-se como uma caixa e ocupa todo espaço. */
+  /* display: inline-block; */
+  /* ele anula o espaço ao lado para poder por outro elemento*/
+/* } */
+
+ul {
+  background-color: rgb(203, 178, 226);
+  padding: 20px;
+}
+
+ul li{
+  display: inline;
+  margin: 100px;
+}
