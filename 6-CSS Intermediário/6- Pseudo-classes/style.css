@@ -1,0 +1,53 @@
+a {
+  color: red;
+}
+
+/*Quando passar o cursor em cima, mudar o valor. O hover se aplica em qualquer tag. Ja o visited e active somonete para a tag ancora*/
+a:hover {
+  color: green;
+  font-weight: bold;
+}
+
+a:hover+.caixa {
+  display: block;
+}
+
+/*quando é acessado o link aplica a valor*/
+a:visited {
+  color: yellow;
+}
+
+/*quando mantem pressionado em cima do link aplica a valor*/
+a:active {
+  color: orange;
+}
+
+.caixa {
+  display: none;
+  width: 150px;
+  height: 150px;
+  background: black;
+}
+
+.caixa:hover {
+  width: 50px;
+  height: 50px;
+  background: orange;
+}
+
+ul li:first-child {
+  color: red;
+}
+
+ul li:last-child {
+  color: aqua;
+}
+
+.exemplo p:first-child {
+  color: fuchsia;
+}
+
+/* aplica se em um elemento especifico*/
+.exemplo2 p:nth-child(5) {
+  color: blue;
+}
