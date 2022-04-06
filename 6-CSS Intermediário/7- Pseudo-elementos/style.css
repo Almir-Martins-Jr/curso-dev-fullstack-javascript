@@ -1,0 +1,45 @@
+/* O pseudo elemento ajuda alterar uma parte especifica do elemento*/
+
+
+/*Selection permite alterar a cor do texto  e background quando é selecionado. Ele se limita a esses dois parametros*/
+::selection {
+  color: rgb(242, 1, 105);
+  background: yellow;
+}
+
+p::first-line {
+  color: blue;
+}
+
+p::first-letter {
+  color: red;
+  font-size: 30px;
+}
+
+h1::before {
+  background: url(https://cdn4.iconfinder.com/data/icons/sushi-10/512/bol-512.png);
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+
+  /* o before não é um elemento caixa, preciso transformar usando display-block*/
+  display: inline-block;
+
+  /* é obrigatório por content dentro do before*/
+  content: "";
+}
+
+h1::after {
+  background: url(https://cdn4.iconfinder.com/data/icons/sushi-10/512/bol-512.png);
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+
+  /* o before não é um elemento caixa, preciso transformar usando display-block*/
+  display: inline-block;
+
+  /* é obrigatório por content dentro do before*/
+  content: "";
+}
