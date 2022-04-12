@@ -1,0 +1,17 @@
+.conteúdo {
+  /* (relative) faz com que todos os elementos que estejam dentro dele e que são absolutos, fiquem relativo à ele e não ao body*/
+  position: relative;
+  height: 500px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.quadrado {
+  position: absolute;
+  left: 200px;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+
+}

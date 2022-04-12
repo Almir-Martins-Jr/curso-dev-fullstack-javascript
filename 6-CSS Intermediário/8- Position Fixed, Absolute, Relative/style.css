@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.quadrado {
+  /* fica fixo na tela enquanto faz o scroll*/
+  position: fixed;
+  left: 200px;
+  top: 200px;
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  box-sizing: border-box;
+  padding: 14px 8px 14px 8px;
+  font-weight: bold;
+
+}
+
+.circulo {
+  /* fica flutuante enquanto faz o scroll*/
+  position: absolute;
+  left: 300px;
+  top: 200px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  color: white;
+  background-color: rgb(19, 42, 222);
+  font-size: 14px;
+  box-sizing: border-box;
+  padding-top: 14px;
+  font-weight: bold;
+}
+
+
+p {
+  margin: 50px;
+  width: 300px;
+}
