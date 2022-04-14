@@ -7,7 +7,7 @@
 body {
   background: url('surf.jpg') no-repeat center fixed;
   background-size: cover;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Raleway', sans-serif;
 
 }
 
@@ -81,4 +81,18 @@ body {
 .submenu li .submenu {
   top: 0;
   left: 100%;
+}
+
+.image {
+  position: fixed;
+  bottom: 0px;
+  right: 0;
+  width: 250px;
+
+}
+
+h2 {
+  position: fixed;
+  bottom: 24px;
+  right: 107px;
 }
