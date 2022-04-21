@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- O metodo GET envia todos os dados na url. -->
+
+  <form action="salvar.html" method="GET">
+    <label for="nome">Nome</label>
+    <input id="nome" name="nome" type="text" placeholder="Digite o seu nome">
+    <br><br>
+
+    <label for="email">E-mail</label>
+    <input id="email" name="email" type="email" placeholder="Digite o seu email">
+    <br><br>
+
+    <label for="senha">Senha</label>
+    <input id="senha" name="senha" type="password" placeholder="Digite a sua senha">
+    <br><br>
+
+    <label>Selecione a cor do seu nome</label>
+    <input name="cor" type="color">
+    <br><br>
+
+    <label>Sexo:</label>
+    <br>
+    <!--O name dos input tem que ser igual porque correspondem a mesma informação  -->
+    <input name="sexo" type="radio" value="masculino"> <label>Masculino</label>
+    <br>
+    <input name="sexo" type="radio" value="feminino"> <label>Feminino</label>
+    <br>
+    <input name="sexo" type="radio" value="não definido"> <label>Prefiro não informar</label>
+    <br><br>
+
+    <label>Habilidades:</label>
+    <br>
+    <input name="habilidades" type="checkbox" value="html" id="html"> <label for="html">HTML</label>
+    <br>
+    <input name="habilidades" type="checkbox" value="css" id="css"> <label for="css">CSS</label>
+    <br>
+    <input name="habilidades" type="checkbox" value="javascript" id="javascript"> <label
+      for="javascript">Javascript</label>
+    <br><br>
+
+    <input type="reset">
+
+    <br><br>
+
+    <button>Enviar</button>
+
+  </form>
+
+</body>
+
+</html>
