@@ -10,7 +10,7 @@ body {
 
 .menu{
   text-decoration: none;
-  padding: 4px;
+  padding: 10px;
   display: block;
   margin: 0px auto;
   color: white;
@@ -47,10 +47,12 @@ article img {
 }
 
 .name {
-  margin-top: -41px;
-  text-align: center;
+  top: 10px;
+  margin-left: 70px;
   color: white;
   font-family: 'Wallpoet', cursive;
+  position:fixed;
+  
 }
 
 .container {
@@ -69,10 +71,12 @@ article img {
   list-style: none;
   text-decoration: none;
   padding: 20px;
+  position:fixed;
+  margin:auto;
 }
 
 .content {
-  width: 70%;
+  width: 50%;
   padding: 40px;
   color: white;
   margin: 30px 0px 50px;
@@ -105,7 +109,7 @@ article img {
  
 .logo2{
   width: 60px;
-    margin-left: 515px;
+    margin-left: 560px;
     margin-bottom: -7px;
 }
 
@@ -114,5 +118,7 @@ footer {
   background-image: url(../img/back.png);
   color: rgba(255, 255, 255, 0.671);
   padding:10px;
-  margin-top: 152px;
+  bottom: 0;
+  position:fixed;
+  width: 100%;
 }
