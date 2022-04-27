@@ -4,11 +4,11 @@
 }
 
 body {
-  background: rgb(32, 199, 238);
-  background: linear-gradient(90deg, rgba(32, 199, 238, 1) 0%, rgba(0, 0, 0, 1) 21%);
+  background: rgb(0, 64, 157);
+  background: linear-gradient(90deg, rgb(0 0 0) 0%, rgb(65 141 158) 38%, rgba(65, 141, 158, 1) 96%);
 }
 
-.menu{
+.menu {
   text-decoration: none;
   padding: 10px;
   display: block;
@@ -33,10 +33,10 @@ article img {
   background-repeat: no-repeat;
   background-position: center;
   height: 57px;
-  box-shadow: 2px 2px 5px lightcyan;
-  position: -webkit-sticky; 
-    position: sticky;
-    top: 0;
+  box-shadow: 2px 2px 25px rgb(0, 0, 0);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .logo {
@@ -51,8 +51,8 @@ article img {
   margin-left: 70px;
   color: white;
   font-family: 'Wallpoet', cursive;
-  position:fixed;
-  
+  position: fixed;
+
 }
 
 .container {
@@ -71,8 +71,8 @@ article img {
   list-style: none;
   text-decoration: none;
   padding: 20px;
-  position:fixed;
-  margin:auto;
+  position: fixed;
+  margin: auto;
 }
 
 .content {
@@ -82,7 +82,7 @@ article img {
   margin: 30px 0px 50px;
   border-radius: 100px 5px 100px 5px;
   font-family: 'Raleway', sans-serif;
-  box-shadow: 5px 5px 20px lightcyan;
+  box-shadow: 5px 5px 20px black;
   background-image: url(../img/back.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -92,33 +92,33 @@ article img {
 .img-circle {
   width: 50px;
   filter: invert(100%);
-  
+
 }
 
 
 .img-links {
   text-decoration: none;
-  
+
 }
 
 
 
-.instagram{
+.instagram {
   margin: 0 10px;
 }
- 
-.logo2{
+
+.logo2 {
   width: 60px;
-    margin-left: 560px;
-    margin-bottom: -7px;
+  margin-left: 560px;
+  margin-bottom: -7px;
 }
 
 footer {
   text-align: center;
   background-image: url(../img/back.png);
   color: rgba(255, 255, 255, 0.671);
-  padding:10px;
+  padding: 10px;
   bottom: 0;
-  position:fixed;
+  position: fixed;
   width: 100%;
 }
