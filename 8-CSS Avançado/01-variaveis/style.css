@@ -1,0 +1,24 @@
+/* Ultilizamos as variáveis quando queremos repetir as informações */
+
+:root {
+  --color-primary: rgb(59, 98, 215);
+  --color-secondary: rgb(13, 13, 168);
+}
+
+h1 {
+  color: var(--color-primary);
+}
+
+h2 {
+color: var(--color-secondary);
+}
+
+p{
+  color: var(--color-primary);
+}
+
+button {
+  background: var(--color-primary);
+  color: white;
+  
+}
