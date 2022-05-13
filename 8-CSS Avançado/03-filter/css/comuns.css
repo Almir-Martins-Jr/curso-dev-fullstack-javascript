@@ -1,0 +1,23 @@
+h1 {
+  color: var(--color-primary);
+  filter: blur(3px);
+}
+
+h2 {
+  color: var(--color-secondary);
+}
+
+p {
+  color: var(--color-primary);
+}
+
+button {
+  background: var(--color-primary);
+  color: white;
+}
+
+img {
+  filter: saturate(7);
+  border-radius: 50% 187%;
+  box-shadow: -7px 10px 9px;
+}
