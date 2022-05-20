@@ -1,0 +1,41 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 50px;
+}
+
+body {
+  font-size: 12px;
+}
+/* 
+vw e vh é referente ao tamanho do viewport (area visivel da pagina). */
+.box {
+  width: 100vw;
+  height: 95vh;
+  background-color: black;
+}
+
+.box2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(6, 237, 98);
+}
+
+
+/* A unidade de medida (em) é relativa ao font-size que estiver definido no elemento pai. */
+p{
+  font-size: 2em; 
+}
+
+
+/* A unidade de medida (rem) é relativa ao root.*/
+p{
+  font-size: 2rem;
+}
+
+
+
