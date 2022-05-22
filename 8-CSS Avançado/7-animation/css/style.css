@@ -1,0 +1,75 @@
+body {
+  margin: 100px;
+}
+
+.box1 {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  background-color: greenyellow;
+  margin-left: 20px;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-name: box1;
+  animation-delay: 1000ms;
+
+}
+
+.box2 {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin-left: 20px;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-name: box2;
+}
+
+
+
+@keyframes box1 {
+  0% {
+    transition-duration: 500ms;
+  }
+
+  10% {
+    background-color: greenyellow;
+  }
+
+  25% {
+    background-color: rgb(255, 47, 92);
+  }
+
+  50% {
+    transform: scale(2, 2) rotate(720deg);
+  }
+
+  75% {
+    border-radius: 50%;
+    box-shadow: 0 0 20px;
+    color: black;
+  }
+
+  100% {
+    background-color: rgb(47, 75, 255);
+  }
+
+}
+
+
+
+@keyframes box2 {
+  0% {
+    background-color: rgb(19, 123, 251);
+  }
+
+  50% {
+  
+  color: black; box-shadow: 0 0 20px
+}
+
+  100% {
+    background-color: rgb(255, 22, 247);
+  }
+
+}
