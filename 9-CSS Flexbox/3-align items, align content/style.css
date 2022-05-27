@@ -1,0 +1,42 @@
+/* A align-content propriedade modifica o comportamento da propriedade flex-wrap . É semelhante a align-items , mas em vez de alinhar itens flexíveis, ele alinha linhas flexíveis. */
+
+
+.container {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  align-items: flex-start;
+  /* align-items: flex-end; */
+  align-items: center;
+  
+  
+  /* align-content: flex-end;   */
+  align-content: center;
+  
+  background-color: silver;
+  height: 600px;
+}
+
+
+.caixa {
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
