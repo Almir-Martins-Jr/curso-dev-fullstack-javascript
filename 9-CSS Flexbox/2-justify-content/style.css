@@ -1,0 +1,32 @@
+.container {
+  background-color: silver;
+  flex-direction: row; /*podemos usar column*/
+  display: flex;
+
+  /* justify-content: flex-start; é o padrão */
+  /* justify-content: flex-end; coloca os itens para o lado direito */
+  /* justify-content: center; */
+   justify-content:space-between;
+  /* justify-content:space-around; */
+} 
+
+.caixa {
+  width: 100px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}

@@ -1,0 +1,39 @@
+/* O display flex muda todos os itens independente de qual display estarem usando*/
+
+
+.container {
+  background-color: silver;
+
+  flex-direction: row;
+  /*é padrão*/
+  /* flex-direction: column; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column-reverse; */
+
+  /* flex-wrap: nowrap; é a padrão */
+  /* flex-wrap: wrap; quebra os itens baixo de acordo co tamanho da tela */
+  /* flex-wrap: wrap-reverse; faz a quebra de modo invertido */
+
+  display: flex;
+}
+
+.caixa {
+  width: 300px;
+  height: 100px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
