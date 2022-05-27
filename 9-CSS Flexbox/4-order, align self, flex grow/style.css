@@ -1,0 +1,40 @@
+
+.container {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  
+  background-color: silver;
+  height: 600px;
+}
+
+
+.caixa {
+  width: 100px;
+  height: 100px;
+}
+
+/*proriedades aplicadas direto nos elementos*/
+
+.red {
+  flex-grow: 1;
+  align-self: flex-end;
+  background-color: red;
+}
+
+.blue {
+  flex-grow: 2;
+  align-self: center;
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  order: -1; /* a propriedade order de todos os elementos são zero*/
+  background-color: green;
+}
