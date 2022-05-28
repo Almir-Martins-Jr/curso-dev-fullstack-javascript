@@ -1,11 +1,57 @@
-body {
+:root {
+  --color-primary: #917758;
+}
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 .home {
   background-size: cover;
   background-image: url(../images/bg-home.jpg);
-  height: 100vh /*viewport heigth*/
+  height: 100vh; /*viewport heigth*/
+}
+
+.home .header {
+  padding: 30px 0;
+}
+
+.home .header .nav {
+  display: flex;
+  justify-content:center;
+}
+
+.home .header .nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.home .header .nav ul li {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.home .header .nav ul li a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 20px;
+}
+
+.home .header .nav ul li a:hover {
+border-bottom: 1px solid var(--color-primary);
+color: var(--color-primary);
+}
+
+.home .header .nav ul li .logo {
+  margin: 0 30px;
 }
