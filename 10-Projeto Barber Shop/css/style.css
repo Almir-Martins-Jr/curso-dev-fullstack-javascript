@@ -275,7 +275,7 @@ body {
 }
 
 .appointment img {
-  margin: 0 auto;
+  margin: 10px auto;
   display: block;
 }
 
@@ -316,15 +316,57 @@ body {
 }
 
 .appointment textarea {
-height: 100px;
+  height: 100px;
 }
 
 .appointment button {
-background-color: var(--color-secondary);
-color: white;
-padding: 15px 40px;
-border: none;
-margin-top: 10px;
-text-transform: uppercase;
-font-weight: bold;
+  background-color: var(--color-secondary);
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+
+/****************
+*   GALLERY
+******************/
+.gallery {
+  padding: 100px 0;
+  background-color: var(--color-primary-light);
+}
+
+.gallery h2 {
+  color: var(--color-secondary);
+  font-weight: 400;
+  font-size: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.gallery img {
+  margin: 0 auto;
+  display: block;
+}
+
+.gallery .gallery-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 900px;
+  height: 100vh;
+  margin: 50px auto;
+}
+
+.gallery .gallery-wrapper div {
+  border: 10px solid var(--color-primary);
+  margin: 6px;
+  width: 33%;
+}
+
+.gallery .gallery-wrapper div img {
+  width: 100%;
 }
