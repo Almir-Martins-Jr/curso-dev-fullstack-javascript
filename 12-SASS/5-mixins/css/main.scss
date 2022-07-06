@@ -1,0 +1,57 @@
+@import 'variables';
+@import 'base';
+@import 'mixins';
+
+.container {
+  display: flex;
+  justify-content: space-around;
+
+  .box {
+    width: 30%;
+    color: $color-primary;
+    background-color: $color-secondary;
+    border-radius: 8px;
+    padding: 20px;
+
+    &.active {
+      background: blue;
+    }
+
+    h2 {
+      font-family: $font-primary;
+      font-size: 22px;
+      margin: 10px 20px 30px 20px;
+    }
+
+    p {
+      font-family: $font-secondary;
+      font-size: 18px;
+
+      &.hidden {
+        display: none;
+      }
+    }
+
+    ul {
+      @include reset-list();
+    }
+
+    .center {
+      @include reset-list(50px, 20px, square);
+    }
+
+    a {
+      color: rgb(142, 136, 136);
+
+      &:hover {
+        color: purple;
+
+        &+p.hidden {
+          display: block;
+        }
+      }
+    }
+
+  }
+
+}
