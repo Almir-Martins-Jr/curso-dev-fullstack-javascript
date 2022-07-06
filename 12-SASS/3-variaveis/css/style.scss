@@ -1,0 +1,65 @@
+$color-primary: pink;
+$color-secondary: white;
+
+$font-primary: 'Arial',
+sans-serif;
+$font-secondary: 'Verdana',
+sans-serif;
+
+$margin-default: 20px 10px 10px 10px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $color-primary;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+
+  .box {
+    width: 30%;
+    color: $color-primary;
+    background-color: $color-secondary;
+    border-radius: 8px;
+    padding: 20px;
+
+    &.active {
+      background: blue;
+    }
+
+    h2 {
+      font-family: $font-primary;
+      font-size: 22px;
+      margin: 10px 20px 30px 20px;
+    }
+
+    p {
+      font-family: $font-secondary;
+      font-size: 18px;
+
+      &.hidden {
+        display: none;
+      }
+    }
+
+    a {
+      color: rgb(142, 136, 136);
+
+      &:hover {
+        color: purple;
+
+        &+p.hidden {
+          display: block;
+        }
+      }
+    }
+
+  }
+
+}

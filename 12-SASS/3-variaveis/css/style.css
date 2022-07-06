@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: pink;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.container .box {
+  width: 30%;
+  color: pink;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+}
+.container .box.active {
+  background: blue;
+}
+.container .box h2 {
+  font-family: "Arial", sans-serif;
+  font-size: 22px;
+  margin: 10px 20px 30px 20px;
+}
+.container .box p {
+  font-family: "Verdana", sans-serif;
+  font-size: 18px;
+}
+.container .box p.hidden {
+  display: none;
+}
+.container .box a {
+  color: rgb(142, 136, 136);
+}
+.container .box a:hover {
+  color: purple;
+}
+.container .box a:hover + p.hidden {
+  display: block;
+}/*# sourceMappingURL=style.css.map */
