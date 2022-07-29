@@ -22,8 +22,8 @@ if (media >= mediaMinima && media === 10) {
   document.write('Quase 10, parabéns!')
 }
 
-if (media <= mediaMinima && media === 0) {
+if (media < mediaMinima && media === 0) {
   document.write('Procure a cordenação, precisamos conversar')
-} else if (media <= mediaMinima && media === 01 || 02 || 03 || 04) {
+} else if (media < mediaMinima && media === 01 || 02 || 03 || 04) {
   document.write('Estude mais!')
 }
