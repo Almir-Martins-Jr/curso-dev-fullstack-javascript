@@ -1,0 +1,15 @@
+li {
+  
+  margin: 5%;
+  padding: 10px;
+  width: 20%;
+  background-color: rgb(198, 237, 140);
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0);
+  
+}
+
+b {
+  font-size: 22px;
+}
