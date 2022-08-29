@@ -1,0 +1,15 @@
+span {
+  display: block;
+  
+}
+
+#botaoMais:focus {
+background-color: green;
+
+}
+
+
+#botaoMenos:focus {
+  background-color:red;
+}
+
